@@ -1,0 +1,33 @@
+{
+  "name": "@nestjs/platform-hono",
+  "version": "11.1.24",
+  "description": "Nest - Hono platform adapter (works on any JS runtime)",
+  "author": "Kamil Mysliwiec",
+  "license": "MIT",
+  "homepage": "https://nestjs.com",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/nest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjs/nest.git",
+    "directory": "packages/platform-hono"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.0",
+    "hono": "^4.7.0",
+    "tslib": "2.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/common": "11.1.24",
+    "@nestjs/core": "11.1.24"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0"
+  }
+}
